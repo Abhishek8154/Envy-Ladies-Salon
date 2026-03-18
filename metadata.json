@@ -1,0 +1,7 @@
+{
+  "name": "Envy Ladies Salon",
+  "description": "Premium Ladies Beauty Salon in Andheri East, Mumbai. Professional beauty treatments, hair styling, and makeup services.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

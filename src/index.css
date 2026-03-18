@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-salon-pink-light: #FDF2F8;
+  --color-salon-pink: #FCE7F3;
+  --color-salon-gold: #D4AF37;
+  --color-salon-gold-dark: #B8860B;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-zinc-800 font-sans;
+}
+
+h1, h2, h3, h4, .font-serif {
+  @apply font-serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F5E050 50%, #D4AF37 100%);
+}
+
+.text-gold {
+  @apply text-salon-gold;
+}
+
+.bg-salon-pink {
+  @apply bg-salon-pink;
+}
+
+.border-gold {
+  @apply border-salon-gold;
+}
